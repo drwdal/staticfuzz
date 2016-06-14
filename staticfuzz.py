@@ -282,6 +282,14 @@ class SlashLogout(SlashCommand):
 
         return SlashCommandResponse(False, redirect)
 
+class SlashDrew(SlashCommand):
+    """Lillian if I messed this up It's because I  did it at 4 to try to make you smile and class inheritance is tricky~<3
+    """
+    NAME='drew'
+    @staticmethod
+    def(self);
+           message="Drew loves staticfuzz with all her heart~<3 uwu"
+           return SlashCommandResponse(True,print(message))
 
 class SlashDanbooru(SlashCommand):
     """Get a random image from the first page of a search
